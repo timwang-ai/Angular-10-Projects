@@ -35,4 +35,12 @@ export class IssuesService {
     }
   }
 
+  updateIssue(issueNo: number, issue: Issue) {
+    const existingIssue = this.issues.find(i => i.issueNo = issueNo);
+    const index = this.issues.indexOf(existingIssue);
+    this.issues[index] = {
+      ...existingIssue,
+      ...issue
+    };
+  }
 }
