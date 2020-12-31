@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "weather-app-b11a2": {
+      "hosting": {
+        "weather-app": [
+          "weather-app-b11a2"
+        ]
+      }
+    }
+  }
+}
